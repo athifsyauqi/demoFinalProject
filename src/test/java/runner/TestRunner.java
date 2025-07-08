@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty","html:reports/cucumber.html", "json:reports/cucumber.json"},
         glue = {"stepDef"},
         features = {"src/test/java/features"},
-        tags = "api", // run all test case
+        tags = "@api", // run all test case
         monochrome = true
 )
 
